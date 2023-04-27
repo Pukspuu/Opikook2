@@ -18,12 +18,20 @@ body{
     color: rgb(85, 85, 85);
 }
 
+.pealkiri h1{
+    text-decoration: underline;
+}
+
 
 
 .card-body{
     background-color: rgb(240, 240, 240);
-    height: 500px;
+    height: 400px;
 
+}
+
+.card-img-top{
+    height: 400px;
 }
 
 .row{
