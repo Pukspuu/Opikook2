@@ -1,0 +1,157 @@
+html{
+    font-size: 18px;
+}
+
+.container{
+    margin-right: 150px;
+}
+
+body{
+    background-color: #ffe676;
+}
+
+.row{
+    margin: 50px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+  
+}
+
+
+
+.pealkiri{
+    margin-top: 140px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color:rgb(18, 79, 60);
+}
+
+.pealkiriopi{
+    margin-left: 90px;
+    font-family: 'Poppins', sans-serif;
+    color:hwb(161 7% 69%);
+}
+
+.ulempealkiri{
+    margin-left: -45px;
+}
+
+.paispilt{
+   margin-left: -65px;
+
+}
+
+.meedia{
+    margin-top: 150px;
+    margin-left: -40px;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color:hwb(161 7% 69%);
+    
+}
+
+.meedia li{
+   letter-spacing: 0px;
+    padding: 5px;
+}
+
+.meedia li a{
+    text-decoration: none;
+    color:hwb(161 7% 69%);
+}
+
+.meedia ul :hover{
+
+    color: rgb(122, 122, 122);
+}
+
+.meedianupud{
+    margin: 25px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-left: -30px;
+ 
+}
+
+.meedianupp{
+    margin-left: -20px;
+    
+}
+
+.teinemeedianupp{
+    padding-left: 20px;
+}
+
+.iconfa{
+    color: hwb(161 7% 69%);
+}
+
+.iconmail{
+    color: hwb(161 7% 69%);
+}
+
+.card-body{
+    background-color: #ffe676;
+}
+
+
+
+.jaluseandmed{
+    margin-top: -20px;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.jaluseandmed a{
+    text-decoration: none;
+    color: hwb(161 7% 69%);
+    text-transform: none;
+}
+
+.meil{
+    margin-top: -25px;
+}
+
+.telefon{
+    margin-top: -15px;
+    margin-left: -85px;
+    text-transform: uppercase;
+}
+
+.teine-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.joonealunekiriparem{
+    margin-top: 35px;
+    margin-left: -130px;
+}
+
+.aadress{
+    margin-left: -85px;
+}
+
+.parempiltka img{
+    border-radius: 50%;
+    width: 150%;
+    margin-top: 120px;
+    margin-left: -200px;
+}
+
+.parempiltka{
+    margin-right: 40px;
+}
+
+.parempilt img{
+    border-radius: 50%;
+    width: 100%;
+    margin: 100px;
+
+}

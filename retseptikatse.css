@@ -1,0 +1,159 @@
+html{
+    font-size: 18px;
+    
+}
+
+body{
+    background-color: #ffe676;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pealkiri{
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.pealkiri a {
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+}
+
+
+
+.card-body{
+    background-color: rgb(240, 240, 240);
+   
+}
+
+.card-body h5{
+    text-align: center;   
+}
+
+.card-body p{
+     text-align: justify; 
+     color: rgb(85, 85, 85);
+     font-size: 0.9rem;
+     width: 550px;
+     }
+
+.card-body img{
+    width: 400px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+.btn{
+    background-color: rgb(85, 85, 85);
+    color: aliceblue;
+    transition: all .4s;
+}
+
+.btn:hover{
+    color: black;
+    background-color: rgb(149, 149, 149);
+}
+
+.opituba{
+    margin: 50px;
+  
+}
+
+.ula-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.meedia{
+    margin-top: 80px;
+    display: flex;
+  
+}
+
+.meedia a{
+    text-decoration: none;
+    color: hwb(161 7% 69%);
+    text-transform: uppercase;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.meedia ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.meedia ul :hover{
+
+    color: rgb(122, 122, 122);
+}
+
+.opikook{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    
+    
+}
+
+.opikook img{
+ 
+    margin-left: 50px;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    border: #020202;
+}
+
+.opituba{
+    margin-bottom: 5px;
+}
+
+.jutt{
+    text-align: justify;
+    width: 170%;
+    margin-left: 60px;
+}
+
+.catering{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+    
+    
+}
+
+.catering img{
+ 
+    margin-left: 50px;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    border: #020202;
+}
+
+.cateringkaks{
+    padding-top: 20px;
+    margin-left: 60px;
+}
+
+.juttkaks{
+    text-align: justify;
+    width: 170%;
+    margin-left: 60px;
+}
+
+.roadpunasekalaga{
+    margin-top: 50px;
+   
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+
+  }
