@@ -82,6 +82,7 @@ body{
     display: flex;
     flex-direction: row;
     margin-left: 50px;
+    padding-top: 50px;
     
     
 }
@@ -102,6 +103,8 @@ body{
     text-align: justify;
     width: 170%;
     margin-left: 60px;
+    color: hwb(161 7% 69%);
+    padding-bottom: 50px;
 }
 
 .catering{
@@ -130,3 +133,4 @@ body{
     width: 170%;
     margin-left: 60px;
 }
+
