@@ -99,10 +99,56 @@ body{
     margin-bottom: 5px;
 }
 
-.jutt{
-    text-align: justify;
+.pealkirijutt{
+    text-align: center;
     width: 170%;
     margin-left: 60px;
     color: hwb(161 7% 69%);
-    padding-bottom: 50px;
+
+}
+
+.catering{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+}
+
+.lingid{
+
+    color: hwb(161 7% 69%);
+    text-transform: uppercase;
+}
+
+.lingid ul li a{
+    text-decoration: none;
+    color: hwb(161 7% 69%);
+}
+
+.lingid ul li a:hover{
+    color: rgb(122, 122, 122);
+    
+}
+
+
+.lingidteinepool{
+    padding-left: 100px;
+    color: hwb(161 7% 69%);
+    text-transform: uppercase;
+}
+
+.lingidteinepool ul li a{
+    text-decoration: none;
+    color: hwb(161 7% 69%);
+}
+
+.lingidteinepool ul li a:hover{
+    color: rgb(122, 122, 122);
+    
+}
+
+.lingidkoos{
+    display: flex;
+    justify-content: space-around;
+    margin-left:-100px;
+    
 }

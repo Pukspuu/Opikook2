@@ -14,6 +14,15 @@ body{
     color: rgb(85, 85, 85);;
 }
 
+.pealkiri a {
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+}
+
+.pealkiri h1{
+    text-decoration: underline;
+}
+
 .card{
     margin-top: 80px;
     box-shadow: 10px 10px 5px rgb(123, 123, 123);
@@ -105,4 +114,8 @@ body{
     margin-left: 60px;
     color: hwb(161 7% 69%);
     padding-bottom: 50px;
+}
+
+.jutt h4{
+    text-align: center;
 }
