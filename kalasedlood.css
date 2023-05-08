@@ -150,5 +150,6 @@ body{
     display: flex;
     justify-content: space-around;
     margin-left:-100px;
+    padding-bottom: 50px;
     
 }

@@ -3,7 +3,7 @@ html{
 }
 
 .container{
-    margin-right: 150px;
+    padding: 0 1em;
 }
 
 body{
@@ -39,6 +39,7 @@ body{
 
 .paispilt{
    margin-left: -65px;
+   
 
 }
 
@@ -147,6 +148,7 @@ body{
 
 .parempiltka{
     margin-right: 40px;
+    
 }
 
 .parempilt img{
