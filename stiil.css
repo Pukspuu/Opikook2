@@ -4,6 +4,9 @@ html{
 
 .container{
     padding: 0 1em;
+    
+    
+
 }
 
 body{
@@ -128,6 +131,7 @@ body{
 .teine-row{
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 50px;
 }
 
 .joonealunekiriparem{
