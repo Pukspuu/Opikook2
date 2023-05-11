@@ -3,7 +3,7 @@ html{
 }
 
 .container{
-    padding: 0 1em;
+    padding: 0 3em;
     
     
 
@@ -161,3 +161,39 @@ body{
     margin: 100px;
 
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: #ffe676;
+    }
+    .pealkiriopi {
+        margin: 10px;
+    }
+    .ulempealkiri{
+        padding: 60px;
+        margin-top: -150px;
+    }
+    .meedia{
+        margin-top: -50px;
+        margin-left: 2px;
+    }
+    .meedianupud{
+        margin-left: 15px;
+    }
+    .joonealunekiri{
+        margin-top: -150px;
+        margin-left: 60px;
+    }
+    .joonealunekiriparem h5{
+        margin-left: -85px;
+    }
+    .aadress b{
+        margin-left: -45px;
+    }
+    .telefon b{
+        margin-left: -45px;
+    }
+    .parempiltka img{
+        visibility: hidden;
+    }
+  }
