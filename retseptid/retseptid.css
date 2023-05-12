@@ -30,9 +30,6 @@ body{
 
 }
 
-.card-img-top{
-    height: 400px;
-}
 
 .row{
     display: flex;
@@ -158,4 +155,45 @@ body{
 
 .card-title{
     text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: #ffe676;
+    }
+    .ula-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .pealkiri{
+       margin-left: 110px;
+}
+    .meedia ul{
+        flex-direction: column;
+        margin-left: 50px;
+        text-align: center;
+        margin-top: -40px;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        display: inline;
+        margin-left: -20px;
+        }
+    
+     .card-body{
+            height: auto;
+            margin-left: -20px;
+            width: 329px;
+         }
+
+    .card-text{
+        width: 300px;
+        text-align: justify;
+    }
+
+ 
+
 }
