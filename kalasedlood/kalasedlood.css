@@ -119,3 +119,37 @@ body{
 .jutt h4{
     text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: #ffe676;
+    }
+    .ula-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .pealkiri{
+       margin-left: 80px;
+}
+    .meedia ul{
+        flex-direction: column;
+        margin-left: 60px;
+        text-align: center;
+        margin-top: -40px;
+    
+    }
+
+    .opikook{
+        flex-direction: column;
+        margin-left: 0px;
+    }
+ 
+    .jutt{
+       width: 320px;
+       margin: 20px;
+    }
+
+    .pildid{
+        margin-left: -5px;
+    }
+}

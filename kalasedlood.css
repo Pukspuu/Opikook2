@@ -153,3 +153,56 @@ body{
     padding-bottom: 50px;
     
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: #ffe676;
+    }
+    .ula-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .pealkiri{
+       margin-left: 80px;
+}
+    .meedia ul{
+        flex-direction: column;
+        margin-left: 50px;
+        text-align: center;
+        margin-top: -40px;
+    
+    }
+
+    .opikook{
+        flex-direction: column;
+        margin-left: 0px;
+    }
+ 
+    .jutt{
+        margin-left: 35px;
+        text-align: justify;
+    }
+
+    .teine-row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pealkirijutt{
+        width: 300px;
+        text-align: center;
+        margin-left: 40px;
+    }
+    .lingidkoos{
+        flex-direction: column;
+        
+        margin: 30px;
+    }
+
+    .lingid{
+        padding-bottom: 10px;
+    }
+    .lingidteinepool{
+        margin-left: -100px;
+    }
+}

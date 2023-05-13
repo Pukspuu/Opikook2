@@ -169,5 +169,7 @@ body{
         text-align: center;
         margin-top: -40px;
     }
-
+    .row{
+        margin-left: 50px;
+    }
 }
