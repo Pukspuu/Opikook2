@@ -9,9 +9,9 @@ body{
 }
 
 .pealkiri{
-    margin-top: 60px;
+    margin-top: 50px;
     margin-left: 30px;
-    color: rgb(85, 85, 85);;
+    color: rgb(85, 85, 85);
 }
 
 .card{
@@ -27,7 +27,7 @@ body{
 
 .row{
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
     
 }
 
@@ -47,10 +47,7 @@ body{
   
 }
 
-.ula-row{
-    display: flex;
-    flex-direction: row;
-}
+
 
 .meedia{
     margin-top: 80px;
@@ -116,7 +113,7 @@ body{
     body {
       background-color: #ffe676;
     }
-    .ula-row{
+    .row{
         display: flex;
         flex-direction: column;
     }

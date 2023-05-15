@@ -17,7 +17,7 @@ body{
     margin: 50px;
     padding: 30px;
     display: flex;
-    flex-direction: row;
+   
   
 }
 
@@ -155,12 +155,7 @@ body{
     
 }
 
-.parempilt img{
-    border-radius: 50%;
-    width: 100%;
-    margin: 100px;
 
-}
 
 @media only screen and (max-width: 600px) {
     body {
@@ -183,7 +178,7 @@ body{
     }
     .joonealunekiri{
         margin-top: -150px;
-        margin-left: 60px;
+        margin-left: 70px;
     }
     .joonealunekiriparem h5{
         margin-left: -85px;
