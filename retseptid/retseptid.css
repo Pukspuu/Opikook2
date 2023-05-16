@@ -27,13 +27,14 @@ body{
 .card-body{
     background-color: rgb(240, 240, 240);
     height: 400px;
+    
 
 }
 
 
 .row{
     display: flex;
-    flex-direction: row;
+   
     margin-left: 30px;
     margin-top: 100px;
 }
@@ -145,16 +146,27 @@ body{
 
 .card {
     flex-direction: row;
+    
+  
 
   }
 .card-text{
-    width: 650px;
+    width: auto;
+    padding: 10px;
     text-align: justify;
     font-size: 0.9rem;
+
+   
 }
 
 .card-title{
     text-align: center;
+    padding: 10px;
+    
+}
+
+.card-body{
+    height: auto;
 }
 
 @media only screen and (max-width: 600px) {

@@ -18,19 +18,25 @@ body{
     margin-top: 80px;
     box-shadow: 10px 10px 5px rgb(123, 123, 123);
     border: #8f8f8f;
+    justify-content: space-around;
+   
+    
+    
 }
 
 .card-body{
     background-color: rgb(240, 240, 240);
-    height: 100px;
+    height: 80px;
+    
 
 }
 
 .row{
     display: flex;
-    flex-direction: row;
-    margin-left: 30px;
+    justify-content: space-around;
+    margin-left: 5px;
     margin-top: -30px;
+    
 }
 
 .btn{
@@ -169,7 +175,5 @@ body{
         text-align: center;
         margin-top: -40px;
     }
-    .row{
-        margin-left: 50px;
-    }
+
 }
