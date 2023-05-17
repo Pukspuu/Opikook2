@@ -134,6 +134,7 @@ body{
     padding-left: 100px;
     color: hwb(161 7% 69%);
     text-transform: uppercase;
+    flex-direction: row;
 }
 
 .lingidteinepool ul li a{
@@ -146,14 +147,25 @@ body{
     
 }
 
-.lingidkoos{
-    display: flex;
-    justify-content: space-around;
-    margin-left:-100px;
-    padding-bottom: 50px;
-    
+.opikook img {
+    height: auto;
+    max-width: 50%;
+    flex-direction: row;
+
+
 }
 
+
+.kolmas-row{
+
+    display: flex;
+   
+    margin-left: 100px;
+    padding-bottom: 50px;
+
+    
+
+}
 @media only screen and (max-width: 600px) {
     body {
       background-color: #ffe676;
@@ -175,7 +187,7 @@ body{
 
     .opikook{
         flex-direction: column;
-        margin-left: 0px;
+        margin-left: 50px;
     }
  
     .jutt{
@@ -193,16 +205,17 @@ body{
         text-align: center;
         margin-left: 40px;
     }
-    .lingidkoos{
-        flex-direction: column;
-        
-        margin: 30px;
-    }
 
     .lingid{
         padding-bottom: 10px;
+        margin-left: -70px;
     }
     .lingidteinepool{
-        margin-left: -100px;
+        margin-left: -170px;
+    }
+
+    .kolmas-row{
+        flex-direction: column;
+        margin-left: 100px;
     }
 }

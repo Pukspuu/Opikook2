@@ -75,21 +75,32 @@ body{
     color: rgb(122, 122, 122);
 }
 
+.teine-row{
+    display: flex;
+    flex-direction: column;
+}
+
 .opikook{
     display: flex;
-    flex-direction: row;
-    margin-left: 50px;
+    margin-left: 30px;
     padding-top: 50px;
     
     
 }
 
+.opikook img {
+    height: auto;
+    max-width: 50%;
+    flex-direction: row;
+
+
+}
 .opikook img{
- 
+
     margin-left: 50px;
-    justify-content: space-evenly;
+
     margin-bottom: 30px;
-    border: #020202;
+   
 }
 
 .opituba{
@@ -104,10 +115,10 @@ body{
     padding-bottom: 50px;
 }
 
-.teine-row{
-    display: flex;
-    flex-direction: column;
-}
+
+
+
+
 
 @media only screen and (max-width: 600px) {
     body {
@@ -130,12 +141,13 @@ body{
 
     .opikook{
         flex-direction: column;
-        margin-left: 0px;
+        margin-left: 50px;
     }
  
     .jutt{
-        margin-left: 35px;
-        text-align: justify;
+        margin-left: 55px;
+        text-align:justify;
+        width: 300px;
     }
 
     .pildid{
