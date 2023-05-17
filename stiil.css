@@ -124,7 +124,7 @@ body{
 
 .telefon{
     margin-top: -15px;
-    margin-left: -85px;
+    margin-left: -25px;
     text-transform: uppercase;
 }
 
@@ -135,12 +135,16 @@ body{
 }
 
 .joonealunekiriparem{
+    margin-top: 55px;
+    margin-left: -200px;
+}
+
+.joonealunekiri{
     margin-top: 35px;
-    margin-left: -130px;
 }
 
 .aadress{
-    margin-left: -85px;
+    margin-left: -25px;
 }
 
 .parempiltka img{
